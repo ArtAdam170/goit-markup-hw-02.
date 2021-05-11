@@ -1,0 +1,171 @@
+body {
+  font-family: Roboto, Raleway;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-link {
+  font-family: Raleway;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 1.19;
+  color: black;
+  letter-spacing: 3%;
+}
+
+.accent {
+  color: #2196f3;
+}
+
+.menu-link {
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+  fill: Solid;
+  color: #212121;
+}
+
+.mail.link {
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+  fill: Solid;
+  color: #757575;
+}
+
+.tel-link {
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 2%;
+  fill: Solid;
+  color: #757575;
+}
+
+.menu-link:hover,
+:focus {
+  color: #2196f3;
+}
+
+.mail-link:hover,
+:focus {
+  color: #2196f3;
+}
+
+.tel-link:hover,
+:focus {
+  color: #2196f3;
+}
+
+.main-slogan {
+  font-style: Black;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 6%;
+}
+
+.modal-btn {
+  font-style: Bold;
+  font-size: 16 px;
+  line-height: 1.9;
+  letter-spacing: 6%;
+  text-transform: uppercase;
+  /*background-color: transparent;*/
+  cursor: pointer;
+}
+
+.modal-btn:hover,
+:focus {
+  color: white;
+  background-color: #2196f3;
+}
+
+.property-description {
+  font-style: regular;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.property-header {
+  font-style: bold;
+  font-size: 16 px;
+  line-height: 1.14;
+  letter-spacing: 3%;
+}
+
+.property-description {
+  font-style: Regular;
+  font-size: 14 px;
+  line-height: 1.71;
+  letter-spacing: 3%;
+}
+
+.doing-header {
+  font-style: bold;
+  font-size: 36 px;
+  line-height: 1.16;
+  letter-spacing: 3%;
+}
+
+.team-header {
+  font-style: bold;
+  font-size: 36 px;
+  line-height: 1.16;
+  letter-spacing: 3%;
+}
+
+.team-name {
+  font-style: Medium;
+  font-size: 16 px;
+  line-height: 1.19;
+  letter-spacing: 3%;
+}
+
+.team-description {
+  font-style: Regular;
+  font-size: 16 px;
+  line-height: 1.19;
+  letter-spacing: 3%;
+}
+
+.works-btn {
+  font-style: Medium;
+  font-size: 16 px;
+  line-height: 1.62;
+  letter-spacing: 3%;
+  color: #212121;
+  fill: Solid;
+}
+
+.works-btn:hover,
+:focus {
+  color: white;
+  background-color: #2196f3;
+}
+
+.example-name {
+  font-style: Bold;
+  font-size: 18 px;
+  line-height: 2;
+  letter-spacing: 6%;
+  color: #212121;
+  fill: Solid;
+}
+
+.example-description {
+  font-style: Regular;
+  font-size: 16 px;
+  line-height: 1.9;
+  letter-spacing: 6%;
+  color: #757575;
+  fill: Solid;
+}
