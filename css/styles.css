@@ -25,20 +25,16 @@ body {
 }
 
 /*section header start*/
-.menu-link:hover,
-:focus {
-  color: var(--accent-color);
-}
-
 .mail-link:hover,
-:focus {
+.mail-link:focus {
   color: var(--accent-color);
 }
 
 .tel-link:hover,
-:focus {
+.tel-link:focus {
   color: var(--accent-color);
 }
+
 .logo-link {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -47,9 +43,11 @@ body {
   letter-spacing: 0.03em;
   color: #2196f3;
 }
+
 .logo-color-header {
   color: black;
 }
+
 .logo-color-footer {
   color: white;
 }
@@ -94,13 +92,13 @@ body {
   line-height: 1.9;
   letter-spacing: 0.06em;
   color: #ffffff;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   background: #2196f3;
   cursor: pointer;
 }
 
 .modal-btn:hover,
-:focus {
+.modal-btn:focus {
   color: rgb(226, 223, 223);
   background-color: #015fac;
 }
@@ -161,7 +159,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .address-google-link:hover,
-:focus {
+.address-google-link:focus {
   color: var(--accent-color);
 }
 .adress-mail-link:hover,
@@ -169,7 +167,7 @@ body {
   color: var(--accent-color);
 }
 .adress-tel-link:hover,
-:focus {
+.adress-mail-link:focus {
   color: var(--accent-color);
 }
 /*section FOOTER end*/
@@ -183,7 +181,7 @@ body {
 }
 
 .works-btn:hover,
-:focus {
+.works-btn:focus {
   color: white;
   background-color: var(--accent-color);
 }
